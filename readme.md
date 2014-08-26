@@ -1,12 +1,12 @@
-<a id="#"></a>
+<a id="#top"></a>
 # DMSConvert
 
 DMSConvert is a small addon for Kerbal Space Program that adds a GUI for
 converting from decimal degrees to degrees/minutes/seconds (DMS) format.
 
-#### [Download the latest release][latest]
+**[Download the latest release][latest]**
 
-## Table of Contents
+### Table of Contents
 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -16,7 +16,7 @@ converting from decimal degrees to degrees/minutes/seconds (DMS) format.
 
 ---
 
-## Installation
+### Installation
 
 You can get a copy of DMSConvert in two different ways:
 
@@ -36,10 +36,10 @@ structure should look like this:
 KSP installation 
 |-- ...
 |-- GameData
-|---- DMSConvert
-|------ config.cfg
-|------ DMSConvert.dll
-|---- ...
+|------ DMSConvert
+|---------- config.cfg
+|---------- DMSConvert.dll
+|------ ...
 |-- ...
 ```
 
@@ -47,7 +47,7 @@ KSP installation
 
 ---
 
-## Usage
+### Usage
 
 **To show/hide the DMSConvert window:** Press Alt+U  
 **To convert decimal degrees to DMS:** Enter a value in the `Decimal` box
@@ -59,7 +59,7 @@ on the `D M S` side and click the `<--` button
 
 ---
 
-## Privacy
+### Privacy
 
 DMSConvert is entirely GUI: it doesn't interact with your game in any way
 that's invisible to the player.  
@@ -77,7 +77,7 @@ DMSConvert does not gather any data about you, your game, or your computer.
 
 ---
 
-## Problems
+### Problems
 
 If you experience a problem, question, complaint, error, bug, or glitch
 while using DMSConvert, please take the following steps:
@@ -87,8 +87,8 @@ If the problem is directly related to DMSConvert's GUI or conversion,
 
 1. Click the green "New issue" button in the top-right
 2. Give the issue a meaningful title
-	- <span style="color:red">unhelpful</span>: `"bad issue pls help!!"`
-	- <span style="color:green">helpful</span>: `"Clicking '-->' button crashes KSP"`
+	- unhelpful: `"bad issue pls help!!"`
+	- helpful: `"Clicking '-->' button crashes KSP"`
 3. Give a little information about the problem
 	- Required:
 		- Describe the problem
@@ -103,7 +103,7 @@ If the problem is directly related to DMSConvert's GUI or conversion,
 
 ---
 
-## Suggestions
+### Suggestions
 
 If you have a feature that you'd like to suggest, let me know! Follow the same
 steps as listed above in [Problems](#problems) to submit an [issue report][issues];
@@ -118,11 +118,11 @@ if I think it's feasible.
 
 ---
 
-<div style="font-size:small;color:#aaa;">
-	<p>DMSConvert is &copy; 2014 ChaoticWeg (Shawn Lutch). [License][]<br />
-	Kerbal Space Program is &copy; 2011-2014 Squad. All Rights Reserved.</p>
-	<p>DMSConvert uses [code by xEvilReeperx][KSPAddonImproved], which is
-	graciously provided in the public domain.</p>
+DMSConvert is &copy; 2014 ChaoticWeg (Shawn Lutch). [License][]  
+Kerbal Space Program is &copy; 2011-2014 Squad. All Rights Reserved.
+
+DMSConvert uses [code by xEvilReeperx][KSPAddonImproved], which is
+graciously provided in the public domain.
 </div>
 
 
@@ -135,6 +135,6 @@ if I think it's feasible.
 [License]: https://raw.githubusercontent.com/ChaoticWeg/KSP-DMSConvert/master/license.md
 [KSPAddonImproved]: https://github.com/ChaoticWeg/KSP-DMSConvert/blob/master/KSPAddonImproved.cs
 
-[Back to top]: #
+[Back to top]: #top
 [Add-on Posting Rules]: http://forum.kerbalspaceprogram.com/threads/87841-Add-on-Posting-Rules-July-24th-2014-going-into-effect-August-21st-2014%21
 [EsperNet IRC]: http://webchat.esper.net/
