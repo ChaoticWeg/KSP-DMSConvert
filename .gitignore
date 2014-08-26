@@ -3,3 +3,4 @@ obj/**
 _Builds/**
 deploy.bat
 *.pdb
+*.zip
