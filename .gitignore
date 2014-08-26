@@ -2,3 +2,4 @@ bin/**
 obj/**
 _Builds/**
 deploy.bat
+*.pdb
