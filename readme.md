@@ -123,7 +123,6 @@ Kerbal Space Program is &copy; 2011-2014 Squad. All Rights Reserved.
 
 DMSConvert uses [code by xEvilReeperx][KSPAddonImproved], which is
 graciously provided in the public domain.
-</div>
 
 
 [latest]: https://github.com/ChaoticWeg/KSP-DMSConvert/releases/latest
