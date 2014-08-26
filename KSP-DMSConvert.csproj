@@ -7,8 +7,8 @@
     <ProjectGuid>{FF6A456B-1BC9-49F7-9AA1-A3E331345BD2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KSP_DMSConvert</RootNamespace>
-    <AssemblyName>KspDmsConvert</AssemblyName>
+    <RootNamespace>DMSConvert</RootNamespace>
+    <AssemblyName>DMSConvert</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

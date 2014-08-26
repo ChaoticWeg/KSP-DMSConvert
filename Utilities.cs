@@ -3,7 +3,7 @@
 using UnityEngine;
 using KSP.IO;
 
-namespace KSP_DMSConvert
+namespace DMSConvert
 {
     /// <summary>The type of conversion to be done (DecToDMS or DMSToDec)</summary>
     public enum ConvertType

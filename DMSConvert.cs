@@ -7,7 +7,7 @@ using UnityEngine;
 using KSP;
 using KSP.IO;
 
-namespace KSP_DMSConvert
+namespace DMSConvert
 {
     [KSPAddon(KSPAddon.Startup.MainMenu, false)]
     public class CheckConfigs : MonoBehaviour
