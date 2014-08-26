@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using UnityEngine;
-using KSP;
 using KSP.IO;
 
-namespace KspDmsConvert
+namespace KSP_DMSConvert
 {
     /// <summary>The type of conversion to be done (DecToDMS or DMSToDec)</summary>
     public enum ConvertType
@@ -40,7 +36,7 @@ namespace KspDmsConvert
                     DmsToDec(ref dec, deg, min, sec);
                     return;
                 default:
-                    DmsConvert.LogError("Unknown ConvertType: " + type.ToString());
+                    DMSConvert.LogError("Unknown ConvertType: " + type.ToString());
                     return;
             }
         }
@@ -76,18 +72,21 @@ namespace KspDmsConvert
         public class Config
         {
             /*            Paths            */
+
             public static readonly String CFG_PATH_REL      // path of the config file, relative to KSP root
-                = "GameData/DmsConvert/config.cfg";
+                = "GameData/DMSConvert/config.cfg";
             public static readonly String CFG_PATH_ABS      // absolute path of the config file
                 = KSPUtil.ApplicationRootPath.Replace("\\", "/") + CFG_PATH_REL;
 
             /*          Key names          */
-            public static readonly String NODE_NAME = "DmsConvert";
+
+            public static readonly String NODE_NAME = "DMSConvert";
             public static readonly String KEY_GUI_X = "gui_x";
             public static readonly String KEY_GUI_Y = "gui_y";
             public static readonly String KEY_GUI_RENDER = "gui_render";
 
             /*       Default values        */
+
             public static readonly float DEF_GUI_X = (Screen.width / 2) - 100;
             public static readonly float DEF_GUI_Y = (Screen.height / 2) - 100;
             public static readonly bool DEF_GUI_RENDER = false;
@@ -110,7 +109,7 @@ namespace KspDmsConvert
             {
                 ConfigNode node = ConfigNode.Load(CFG_PATH_ABS);
 
-                // if there is no config file, save the default one
+                // if there is no config file, create a default one
                 if (node == null)
                 {
                     SaveConfig(DefaultNode());

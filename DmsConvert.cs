@@ -7,20 +7,20 @@ using UnityEngine;
 using KSP;
 using KSP.IO;
 
-namespace KspDmsConvert
+namespace KSP_DMSConvert
 {
     [KSPAddon(KSPAddon.Startup.MainMenu, false)]
     public class CheckConfigs : MonoBehaviour
     {
         void Start()
         {
-            DmsConvert.LogEntry("Initializing config file");
+            DMSConvert.LogEntry("Initializing config file");
             Utilities.Config.LoadConfig();
         }
     }
 
     [KSPAddonImproved(KSPAddonImproved.Startup.RealTime)]
-    public class DmsConvert : MonoBehaviour
+    public class DMSConvert : MonoBehaviour
     {
         /// <summary>Logs a message in the Alt+F2 debug log</summary>
         /// <param name="message">The message to be logged</param>
