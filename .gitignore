@@ -1,6 +1,19 @@
+# Directories
 bin/**
 obj/**
 _Builds/**
-deploy.bat
+_Versions/**
+node_modules/**
+
+# Pesky VS2012 debug info
 *.pdb
+
+# Building, deploying, and parsing scripts
+*.js
+*.bat
+
+# Parsed readme, for my eyes only
+*.html
+
+# Ignore any ZIP files
 *.zip
