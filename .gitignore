@@ -11,6 +11,7 @@ node_modules/**
 # Building, deploying, and parsing scripts
 *.js
 *.bat
+*_log.txt
 
 # Parsed readme, for my eyes only
 *.html
