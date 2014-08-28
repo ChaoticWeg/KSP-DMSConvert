@@ -49,6 +49,9 @@ KSP installation
 
 ### Usage
 
+The DMSConvert window is only available in game scenes where time passes,
+i.e. the KSC overview scene, in the Tracking Center, and in flight.
+
 **To show/hide the DMSConvert window:** Press Alt+U  
 **To convert decimal degrees to DMS:** Enter a value in the `Decimal` box
 and click the `-->` button  
