@@ -1,0 +1,12 @@
+# Compiled source and binary files
+DMSConvert/bin/**
+DMSConvert/obj/**
+
+# Visual Studio stuff
+*.suo
+*.pdb
+
+# Miscellaneous
+*.xcf
+*.bat
+*.lnk
