@@ -9,6 +9,14 @@ namespace ChaoticWeg
 {
     public class DMSConvert
     {
+        /* Paths */
+
+        public static String PathRoot = KSPUtil.ApplicationRootPath.Replace("\\", "/");
+        public static String PathDMSC = String.Format("{0}GameData/DMSConvert/", PathRoot);
+        public static String PathConfig = String.Format("{0}DMSConvert.cfg", PathDMSC);
+
+        /* Calculation stuff below */
+
         public static void DecToDms(float dec, out float deg, out float min, out float sec)
         {
             deg = (float) Math.Floor(dec);
@@ -25,6 +33,8 @@ namespace ChaoticWeg
         {
             return (float) Math.Round(f, digits);
         }
+
+        /* Logging stuff below */
 
         public static void Log(String message, LogType type = LogType.Log)
         {

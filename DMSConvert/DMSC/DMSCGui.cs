@@ -16,7 +16,7 @@ namespace ChaoticWeg
 
         private String txtDecimal = "0", txtDegrees = "0", txtMinutes = "0", txtSeconds = "0";
         private float dec = 0f, deg = 0f, min = 0f, sec = 0f;
-        private bool btnDecToDms = false, btnDmsToDec = false;
+        private bool btnDecToDms = false, btnDmsToDec = false, btnShowOptions = false;
 
         public void Awake()
         {
@@ -43,10 +43,17 @@ namespace ChaoticWeg
                 DMSConvert.DecToDms(dec, out deg, out min, out sec);
                 UpdateTextFields(true);
             }
+
+            if (btnShowOptions)
+            {
+                DMSCOptions.Draw = true;
+            }
         }
 
         void debugWindow(int windowID)
         {
+            GUI.skin.label.alignment = TextAnchor.MiddleCenter;
+
             GUILayout.BeginVertical();
             GUILayout.FlexibleSpace();
             GUILayout.BeginHorizontal();
@@ -83,6 +90,9 @@ namespace ChaoticWeg
             GUILayout.EndVertical();
 
             GUILayout.EndHorizontal();
+            GUILayout.FlexibleSpace();
+
+            btnShowOptions = GUILayout.Button("Options...");
             GUILayout.FlexibleSpace();
             GUILayout.EndVertical();
 
