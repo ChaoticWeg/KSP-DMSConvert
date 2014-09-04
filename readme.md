@@ -1,10 +1,10 @@
 <a id="#top"></a>
 
 **NOTE**: This repository is undergoing a complete rewrite. I *hated* the code
-clutter that resulted from absolute inexperience with the Unity and KSP APIs,
-and the directory was getting insanely full and disorganized as well. After
-all of this refactoring and rewriting, I'll be working on getting DMSConvert to
-play nicely with the toolbars.
+clutter that resulted from my inexperience with the Unity and KSP APIs, and the
+directory was getting insanely full and disorganized as well. After all of this
+refactoring and rewriting, I'll be working on getting DMSConvert to play nicely
+with the toolbars.
 
 # DMSConvert
 
